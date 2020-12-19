@@ -20,7 +20,7 @@ RUN echo '@testing http://nl.alpinelinux.org/alpine/edge/testing' >> /etc/apk/re
     rm -rf /var/cache/apk/*
 
 WORKDIR /srv
-EXPOSE 80
+EXPOSE 8080
 
 ENTRYPOINT ["dumb-init", "--"]
 
